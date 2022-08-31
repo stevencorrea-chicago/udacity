@@ -10,5 +10,5 @@ try:
 except OSError as error: 
     print(error)  
 
-os.chmod("/home/steve/Python/DelteMe", 777)
+os.chmod("/home/steve/Python/DeleteMe", 777)
 shutil.chown("/home/steve/Python/DeleteMe", 1000, 1000)
