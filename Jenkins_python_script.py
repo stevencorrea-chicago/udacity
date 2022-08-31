@@ -1,5 +1,4 @@
-import sys
-import os
+import sys, os, stat
 import shutil
 
 for i in range(1, len(sys.argv)):
